@@ -2,7 +2,7 @@ var restify = require('restify');
 var builder = require('botbuilder');
 
 // Create bot and add dialogs
-var bot = new builder.BotConnectorBot({ appId: 'YourAppId', appSecret: 'YourAppSecret' });
+var bot = new builder.BotConnectorBot({ appId: '91d7ac444cc3489ba43c92ab06046995', appSecret: '69a6ccd26e0a4fa0a3b636908326576e' });
 bot.add('/', function (session) {
     session.send('Hello World');
 });
